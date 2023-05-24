@@ -1,0 +1,322 @@
+/*******************
+HEADER SECTION
+***************** */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: var(--main-background-color);
+    height: 20rem;
+    padding: 0 6.8rem;
+}
+
+.logo {
+    height: 20rem;
+    filter: drop-shadow(1px 0 0 var(--main-color)) drop-shadow(0 1px 0 var(--main-color)) drop-shadow(-1px 0 0 var(--main-color)) drop-shadow(0 -1px 0 var(--main-color));
+}
+
+/*****************
+NAV SECTION
+**************** */
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--main-gray);
+    font-weight: 500;
+    font-size: 2.4rem;
+    transition: all 300ms;
+
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: var(--main-color);
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: var(--main-color);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: var(--main-color-dark);
+}
+
+/*****************
+HERO SECTION
+**************** */
+.section-hero {
+    background: linear-gradient(var(--main-background-color), #48280b);
+    padding: 8.6rem 0;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.heading-primary strong,
+.heading-secondary strong {
+    font-size: 5.4rem;
+    color: var(--main-color);
+    font-family: 'Skranji', sans-serif;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+
+.players-played {
+    display: flex;
+    margin-top: 2.4rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.player-imgs {
+    display: flex;
+}
+
+.player-imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #2e1907;
+}
+
+.player-imgs img:last-child {
+    margin: 0;
+}
+
+.players-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-left: 2rem;
+}
+
+.players-text span {
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+/*****************
+Featured IN SECTION
+**************** */
+.section-featured {
+    padding: 3.8rem 0;
+}
+
+.heading-featured-in {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: var(--darker-gray);
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+
+.logos img:nth-child(1) {
+    height: 2rem;
+}
+
+.logos img:nth-child(2) {
+    height: 4.2rem;
+}
+
+.logos img:nth-child(4) {
+    height: 4.8rem;
+}
+
+/*****************
+HOW SECTION
+**************** */
+.section-how {
+    padding: 9.6rem 0;
+    background: linear-gradient(#fff1de, #8b8b8b);
+}
+
+.step-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: var(--darker-gray);
+}
+
+.step-img-box {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-img {
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 5px 10px 5px var(--darker-gray);
+}
+
+/*****************
+ITEMS SECTION
+**************** */
+.section-items {
+    padding: 9.6rem 0;
+    background: linear-gradient(#8b8b8b, #fff1de);
+}
+
+.item-name {
+    font-size: 2rem;
+    color: var(--darker-gray);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(190, 156, 119, 0.42);
+    box-shadow: 0 2.4rem 4.8rem var(--darker-gray);
+    border-radius: 9px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 25%);
+    transition: all 300ms;
+}
+
+.item:hover {
+    scale: 1.1;
+    box-shadow: 0 3.6rem 5.2rem var(--darker-gray);
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    color: #191919;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+.item-tags {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.tag.two-hand,
+.tag.one-hand {
+    background-color: #868e96;
+}
+
+.tag.wh {
+    background-color: #c9651e;
+}
+
+.tag.legendary {
+    background-color: #f59f00;
+}
+
+.tag.epic {
+    background-color: #ae3ec9;
+}
+
+.tag.rare {
+    background-color: #228be6;
+}
+
+.tag.axe {
+    background-color: #fa5252;
+}
+
+.tag.sword {
+    background-color: #5c7cfa;
+}
+
+.item-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    gap: 1rem;
+    color: #191919;
+}
+
+.item-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item-description {
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.item-img {
+    width: 90%;
+    border-radius: 9px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0, 0, 0, 25%);
+}
+
+.sword-icon,
+.shield-icon {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.bonus-icon {
+    float: left;
+    align-self: flex-start;
+    width: 4rem;
+    height: 4rem;
+    color: var(--main-color);
+}
+
+.all-items {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
