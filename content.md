@@ -39,12 +39,19 @@ in this open world gathering and crafting adventure.
 
 ### Cragholm features
 
+Feature 1: "Expansive Open World"
 Explore a vast and immersive open world filled with diverse landscapes, from towering mountains to lush fields,
 enchanted forests, and bustling coastal harbors.
+
+Feature 2: "Distinct Dwarf Races"
 Engage with four unique dwarf races, each with their own specialized skills and gameplay mechanics, including mining,
 harvesting, woodcrafting, and fishing.
+
+Feature 3: "Thrilling Quests and Encounters"
 Embark on thrilling quests, encounter mythical creatures, and uncover hidden treasures that shape the destiny of the
 dwarf realms.
+
+Feature 4: "Robust Crafting and Resource Gathering"
 Gather resources, craft powerful items, and build epic structures to establish your legacy and leave a lasting impact on
 the dynamic world of Cragholm.
 
@@ -149,29 +156,33 @@ finely honed blade allows for quick and deadly attacks, while its balanced desig
 its heightened critical strike chance, this weapon is favored by agile fighters who rely on speed and finesse to
 dispatch their foes. Unleash your inner shadow and strike swiftly with deadly precision!
 
-### We offer a free sample meal
+### Be Among the First: Beta Sign-up Form
 
 [Create simple form for users to sign up]
 
-Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And
-the first meal is on us!
+Join the Adventure: Sign Up for the Beta and Experience the Dwarven Realms Firsthand!
 
 ### We have 2 pricing plans
 
-Prices include all applicable taxes. Users can cancel at any time.
+By subscribing to our pricing models, you acknowledge and agree to be responsible for any applicable taxes.
+Additionally, please note that cancellation of the plan is subject to the terms and conditions outlined in our
+cancellation policy.
 
-Free:
+Free Play Plan:
+Price: Free
+Access to the core gameplay experience.
+Explore the open world of Cragholm, interact with NPC characters, and engage in basic gathering and crafting activities.
+Enjoy a limited selection of quests and storyline content.
+Participate in cooperative gameplay and interact with other players.
 
-- 1 meal per day
-- Order times are between 11am and 9pm
-- Delivery is free
-
-Complete: $649 per month
-
-- No queue
-- Support 24/7
-- Delivery is free
-- Get access to latest arias
+Premium Plan:
+Price: $9.99/month
+All the benefits of the Free Play Plan, plus the following premium features:
+Unlock exclusive premium quests and storylines, offering enhanced narrative depth and unique rewards.
+Gain access to rare and powerful items, weapons, and armor.
+Enjoy increased gathering and crafting bonuses, allowing for faster progress and greater efficiency.
+Exclusive access to premium areas and dungeons with challenging encounters and valuable treasures.
+Priority customer support and assistance for premium players.
 
 ### Photo gallery
 

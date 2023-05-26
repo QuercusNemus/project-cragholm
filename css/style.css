@@ -167,20 +167,20 @@ Featured IN SECTION
 }
 
 /*****************
-HOW SECTION
+RACES SECTION
 **************** */
-.section-how {
+.section-races {
     padding: 9.6rem 0;
     background: linear-gradient(#fff1de, #8b8b8b);
 }
 
-.step-description {
+.race-description {
     font-size: 2rem;
     line-height: 1.6;
     color: var(--darker-gray);
 }
 
-.step-img-box {
+.race-img-box {
     position: relative;
 
     display: flex;
@@ -188,7 +188,7 @@ HOW SECTION
     justify-content: center;
 }
 
-.step-img {
+.race-img {
     width: 80%;
     border: 3px solid black;
     box-shadow: 5px 10px 5px var(--darker-gray);
@@ -384,4 +384,187 @@ TESTIMONIALS SECTION
 
 .gallery-item img:hover {
     scale: 1.2;
+}
+
+/*****************
+PRICING SECTION
+**************** */
+
+.section-pricing {
+    padding: 9.6rem 0;
+    color: var(--darker-gray);
+}
+
+.pricing-plan {
+    border-radius: 11px;
+    padding: 3.6rem;
+    width: 80%;
+}
+
+.pricing-plan--free {
+    justify-self: end;
+    border: 3px solid #f3f3f3;
+}
+
+.pricing-plan--premium {
+    background-color: #f3f3f3;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-plan--premium::after {
+    content: "Best value";
+    position: absolute;
+    top: 4%;
+    right: -9%;
+    transform: rotate(45deg);
+
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--darker-gray);
+    font-weight: 700;
+    padding: 0.8rem 4.8rem;
+
+    background-color: var(--main-color);
+}
+
+.pricing-plan
+.pricing-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.plan-name {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    margin-bottom: 3.2rem;
+}
+
+.plan-price {
+    font-size: 6.2rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-right: 0.8rem;
+}
+
+.plan-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.plan-sign-up {
+    margin-top: 4.8rem;
+    text-align: center;
+}
+
+.plan-details {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.feature-icon {
+    color: var(--main-color);
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 3.4rem;
+    background-color: #f3f3f3;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+
+.feature-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+/*****************
+CTA SECTION
+**************** */
+
+.section-cta {
+    padding: 9.6rem 0;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 2.4rem 4.8rem var(--darker-gray);
+    border-radius: 9px;
+    background-image: linear-gradient(to right bottom, var(--main-color), var(--main-color-lighter));
+    overflow: hidden;
+}
+
+.cta-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #372803;
+}
+
+.cta-text {
+    color: inherit;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.cta .heading-secondary {
+    color: #372803;
+    margin-bottom: 3.2rem;
+}
+
+.cta-img-box {
+    background-image: linear-gradient(to right bottom, rgba(184, 134, 11, 0.2), rgba(198, 158, 60, 0.2)), url("../img/signing.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+    font-family: inherit;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    color: inherit;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 9px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cta-form input::placeholder {
+    color: #ababab;
+}
+
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.4rem rgba(243, 243, 243, 0.5);
 }
