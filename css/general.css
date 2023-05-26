@@ -86,6 +86,10 @@ GENERAL COMPONENTS
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
 }
@@ -142,6 +146,10 @@ GENERAL COMPONENTS
     font-family: inherit;
 
     transition: all 300ms;
+}
+
+.btn--first {
+    margin-top: auto;
 }
 
 .btn--form {
@@ -203,6 +211,10 @@ link:active {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+}
+
+.list-item:last-child {
+    margin-bottom: 4.8rem;
 }
 
 .list-icon {

@@ -26,14 +26,16 @@
 </head>
 <body>
 <header class="header">
-    <img alt="Cragholm lgo" class="logo" src="img/cragholm-logo.png">
+    <a href="#">
+        <img alt="Cragholm lgo" class="logo" src="img/cragholm-logo.png">
+    </a>
     <nav class="main-nav">
         <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#">Section 1</a></li>
-            <li><a class="main-nav-link" href="#">Section 2</a></li>
-            <li><a class="main-nav-link" href="#">Section 3</a></li>
-            <li><a class="main-nav-link" href="#">Section 4</a></li>
-            <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
+            <li><a class="main-nav-link" href="#races">Races</a></li>
+            <li><a class="main-nav-link" href="#items">Items</a></li>
+            <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+            <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="main-nav-link nav-cta" href="#sign-up">Sign up</a></li>
         </ul>
     </nav>
 </header>
@@ -87,7 +89,7 @@
         </div>
     </section>
 
-    <section class="section-races">
+    <section class="section-races" id="races">
         <div class="container">
             <h2 class="heading-secondary">Explore waste world of <strong>Cragholm</strong>!</h2>
         </div>
@@ -175,7 +177,7 @@
         </div>
     </section>
 
-    <section class="section-items">
+    <section class="section-items" id="items">
         <div class="container center-text">
             <span class="subheading">Items</span>
             <h2 class="heading-secondary">Cragholm with over 5,000 AI generated items</h2>
@@ -281,7 +283,7 @@
         </div>
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonials">
         <div class="testimonial-container">
             <span class="subheading">Testimonials</span>
             <h2 class="heading-secondary">Players' Voices:<br> What Dwarven Adventurers Are Saying!</h2>
@@ -388,7 +390,7 @@
         </div>
     </section>
 
-    <section class="section-pricing">
+    <section class="section-pricing" id="pricing">
         <div class="container">
             <span class="subheading">Pricing</span>
             <h2 class="heading-secondary">Choose Your Adventure:<br> Free Play or Unlock Premium Rewards!</h2>
@@ -498,7 +500,7 @@
         </div>
     </section>
 
-    <section class="section-cta">
+    <section class="section-cta" id="sign-up">
         <div class="container">
             <div class="cta">
                 <div class="cta-text-box">
@@ -541,5 +543,70 @@
         </div>
     </section>
 </main>
+
+<footer class="footer">
+    <div class="container grid grid--footer">
+        <div class="footer-logo">
+            <a href="#">
+                <img alt="Cragholm logo" class="logo-footer" src="img/cragholm-logo.png">
+            </a>
+            <ul class="social-links">
+                <li><a class="footer-link" href="#">
+                    <ion-icon class="social-icons" name="logo-steam"></ion-icon>
+                </a></li>
+                <li><a class="footer-link" href="#">
+                    <ion-icon class="social-icons" name="logo-playstation"></ion-icon>
+                </a></li>
+                <li><a class="footer-link" href="#">
+                    <ion-icon class="social-icons" name="logo-xbox"></ion-icon>
+                </a></li>
+                <li><a class="footer-link" href="#">
+                    <ion-icon class="social-icons" name="logo-twitch"></ion-icon>
+                </a></li>
+                <li><a class="footer-link" href="#">
+                    <ion-icon class="social-icons" name="logo-discord"></ion-icon>
+                </a></li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2023 by <br/> Dwarven Forge Studio.<br/> All rights reserved.</p>
+        </div>
+        <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+                <p class="address">
+                    1337 Cragholm St., 2nd Floor, San Francisco, CA 13370
+                </p>
+                <a class="footer-link" href="tel:415-201-1337">415-201-1337</a> <br/>
+                <a class="footer-link" href="mailto:hello@cragholm.io">hello@cragholm.io</a>
+            </address>
+        </div>
+        <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="#">Create account</a></li>
+                <li><a class="footer-link" href="#">Sign in</a></li>
+                <li><a class="footer-link" href="#">Android app</a></li>
+                <li><a class="footer-link" href="#">Apple app</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="#">About Cragholm</a></li>
+                <li><a class="footer-link" href="#">For Business</a></li>
+                <li><a class="footer-link" href="#">Gaming partners</a></li>
+                <li><a class="footer-link" href="#">Carers</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="#">Items directory</a></li>
+                <li><a class="footer-link" href="#">Help center</a></li>
+                <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
 </body>
 </html>

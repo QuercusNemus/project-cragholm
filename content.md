@@ -216,8 +216,8 @@ evolving world. A truly immersive and enjoyable adventure!" - ★★★★★
 
 ### Contact information
 
-Address: 1337 Cragholm St., 2nd Floor, San Francisco, CA 94107
-Phone: 415-201-6370
+Address: 1337 Cragholm St., 2nd Floor, San Francisco, CA 13370
+Phone: 415-201-1337
 Email: hello@cragholm.io
 
 Social profiles: instagram, facebook, twitter [links to them not available yet]
@@ -228,11 +228,13 @@ Create account
 Sign in
 iOS app
 Android app
+
 About Cragholm
 For Business
-Cooking partners
+Gaming partners
 Careers
-Recipe directory
+
+Items directory
 Help center
 Privacy & terms
 
