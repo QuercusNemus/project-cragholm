@@ -207,6 +207,10 @@ Featured IN SECTION
 /*****************
 RACES SECTION
 **************** */
+#races {
+    scroll-margin-top: 10rem;
+}
+
 .section-races {
     padding: 9.6rem 0;
     background: linear-gradient(#fff1de, #8b8b8b);
@@ -235,6 +239,10 @@ RACES SECTION
 /*****************
 ITEMS SECTION
 **************** */
+#items {
+    scroll-margin-top: 12rem;
+}
+
 .section-items {
     padding: 9.6rem 0;
     background: linear-gradient(#8b8b8b, #fff1de);
@@ -360,6 +368,10 @@ ITEMS SECTION
 /*****************
 TESTIMONIALS SECTION
 **************** */
+#testimonials {
+    scroll-margin-top: 12rem;
+}
+
 .section-testimonials {
     background-color: #f3f3f3;
     display: grid;
@@ -427,6 +439,9 @@ TESTIMONIALS SECTION
 /*****************
 PRICING SECTION
 **************** */
+#pricing {
+    scroll-margin-top: 10rem;
+}
 
 .section-pricing {
     padding: 9.6rem 0;
