@@ -46,13 +46,15 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
     font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
-    color: var(--main-gray)
+    color: var(--main-gray);
+    overflow-x: hidden;
 }
 
 /******************
