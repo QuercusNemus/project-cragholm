@@ -98,7 +98,7 @@ HERO SECTION
 **************** */
 .section-hero {
     background: linear-gradient(var(--main-background-color), #48280b);
-    padding: 8.6rem 0;
+    padding: 12rem 0;
 }
 
 .hero {
