@@ -6,6 +6,7 @@ Including all the images is made by OpenAI or Bing Image Creator, powered by Dal
 
 I have just made the HTML, CSS and the JavaScript for the project.
 
+Hosted on AWS via Amplify.
 https://main.d3esz09abbfz5f.amplifyapp.com/
 
 # "Unleash Your Inner Dwarf and Craft Your Legend in the Realm of Cragholm!"
