@@ -7,14 +7,16 @@ HEADER SECTION
     align-items: center;
     font-size: 1.8rem;
     background-color: var(--main-background-color);
-    height: 20rem;
-    padding: 0 6.8rem;
+    height: 8rem;
+    padding: 0 3.2rem;
     position: relative;
 }
 
 .logo {
-    height: 20rem;
+    height: 15rem;
     filter: drop-shadow(1px 0 0 var(--main-color)) drop-shadow(0 1px 0 var(--main-color)) drop-shadow(-1px 0 0 var(--main-color)) drop-shadow(0 -1px 0 var(--main-color));
+    position: absolute;
+    top: 1rem;
 }
 
 /* MOBILE */
@@ -73,6 +75,22 @@ NAV SECTION
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
     background-color: var(--main-color-dark);
+}
+
+/* Sticky Navigation */
+.sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 0 3.2rem;
+    background-color: rgba(46, 25, 7, 0.9);
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.5);
+}
+
+.sticky .section-hero {
+    margin-top: 8rem;
 }
 
 /*****************
