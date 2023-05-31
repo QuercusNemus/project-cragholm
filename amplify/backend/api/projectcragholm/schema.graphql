@@ -1,0 +1,6 @@
+type Form @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  full_name: String!
+  email: AWSEmail!
+  heard_from: String!
+} 
