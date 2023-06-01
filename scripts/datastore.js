@@ -1,5 +1,5 @@
 import {Form} from "../src/models/index.js";
-import {DataStore} from 'aws-amplify';
+import {DataStore} from 'node_modules/@aws-amplify/datastore';
 
 try {
     const post = await DataStore.save(
